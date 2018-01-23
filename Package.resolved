@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "bc973c5311ce3db3f01a9fcde027fb11fa2254bf",
+          "version": "4.6.0"
+        }
+      },
+      {
+        "package": "ProcedureKit",
+        "repositoryURL": "https://github.com/f-meloni/ProcedureKit.git",
+        "state": {
+          "branch": "development",
+          "revision": "32975d698be67830298454d7213595ad199a85e8",
+          "version": null
+        }
+      },
+      {
+        "package": "SonarrAPI",
+        "repositoryURL": "/Users/franco/XCodeProjects/SonarrAPI",
+        "state": {
+          "branch": "master",
+          "revision": "76db80d54613526d6a90d18c284b2aacd3f7835b",
+          "version": null
+        }
+      },
+      {
+        "package": "ZEGBot",
+        "repositoryURL": "https://github.com/shaneqi/ZEGBot.git",
+        "state": {
+          "branch": null,
+          "revision": "93bac9beaef2280fea8de5a09559bce63632eb1f",
+          "version": "4.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
