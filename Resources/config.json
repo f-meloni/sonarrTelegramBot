@@ -1,5 +1,6 @@
 {
-    "host": "localhost",
-    "apiToken": "",
-    "botToken": ""
+    "host": "host",
+    "port": "port",
+    "apiToken": "apiToken",
+    "botToken": "botToken"
 }

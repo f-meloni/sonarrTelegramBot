@@ -9,19 +9,19 @@ import Foundation
 
 protocol SonarrBotConfiguration {
     var host: String { get }
+    var port: String { get }
     var apiToken: String { get }
     var botToken: String { get }
 }
 
 struct FileConfiguration: SonarrBotConfiguration, Codable {
     let host: String
+    let port: String
     let apiToken: String
     let botToken: String
     
     init?(configFileName: String) {
-        let configFilePath = FileManager.default.currentDirectoryPath + "/Resources/" + configFileName
-        
-        print(configFilePath)
+        let configFilePath = "/Users/franco/XCodeProjects/SonarrBot/Resources/config.json"//FileManager.default.currentDirectoryPath + "/Resources/" + configFileName
         
         let url = URL.init(fileURLWithPath: configFilePath)
         
